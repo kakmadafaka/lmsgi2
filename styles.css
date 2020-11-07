@@ -1,0 +1,77 @@
+
+h1,h2 {
+    color: lightseagreen;
+}
+
+.destacado{
+    color: rgb(107, 5, 175);
+}
+#unico {
+    color: rgb(255, 255, 0);
+/* este selector no esta muy bien empleado ya que podria haber usado el last-child/type pero queria usarlo para comprobar su comportamiento de 1/1 por pagina*/
+}
+
+body {
+    color: hsl(0, 0%, 0%);
+    background-color: silver;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(99, 71, 30);
+    margin-left: 1em;
+    padding-left: 1em;
+
+}
+
+em, strong {
+    color: tomato;
+}
+
+strong{
+    margin: 12px;
+    /*en este caso no aplica al titulo porque es un elemento en bloque */
+}
+
+h1 {
+    padding: 30px;
+    border: 3px dashed #0a0f52;
+    margin: 1em;
+}
+
+a:link {
+    color: thistle;
+    text-decoration: none;
+}
+a:visited {
+    color: burlywood;
+}
+a:hover{
+ color: aqua;
+ text-decoration: underline;
+}
+a:active{
+    color: white;
+}
+
+p:last-of-type {
+    margin: bottom 50px;
+}
+
+table {
+    
+    border-color: darkgoldenrod;
+    border: solid red;
+    width: 80%;
+
+}
+
+th, td {
+    text-align: justify;
+    padding: 6px;
+}
+
+/*perdon por la combinacion cutre de colores */
